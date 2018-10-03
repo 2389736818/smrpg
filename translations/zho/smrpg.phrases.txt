@@ -1,0 +1,874 @@
+"Phrases"
+{
+	"Inform about plugin"
+	{
+		// 1: Running SM:RPG plugin version (e.g. 1.0)
+		"#format" "{1:s}"
+		"zho"			"該服務器正在運行 v{1}."
+	}
+	
+	"Advertise rpgmenu command"
+	{
+		"zho"			"{G}在聊天欄輸入 \"{N}rpgmenu{G}\" 來選擇選項."
+	}
+	
+	"Client level changed"
+	{
+		// 1: Name of the client which level has changed.
+		// 2: New rpg level of the client
+		"#format"	"{1:N},{2:d}"
+		"zho"			"{1} 升級到 {2}."
+	}
+	
+	"You have new credits"
+	{
+		// 1: Total amount of credits the player currently has.
+		"#format"	"{1:d}"
+		"zho"			"你有新的技能點 ({1} total). 在聊天欄輸入 \"rpgmenu\" 或 \"rpg\" 來購買升級技能."
+	}
+	
+	//Newbie Text
+	"Newbie instructions new level"
+	{
+		"zho"			"{G}你已經獲得 {N}新的等級{G}! 這意味著你可以 {N}購買升級技能{G} 能夠讓你比對手更有優勢."
+	}
+	
+	"Newbie instructions use rpgmenu"
+	{
+		"zho"			"{G}輸入 \"{L}rpgmenu{G}\" 或 \"{L}rpg{G}\" 進入菜單來升級你的技能."
+	}
+	
+	//Experience Hintbox
+	"Experience Gained Hintbox"
+	{
+		// 1: Amount of experience the client just gained.
+		// 2: Total amount of experience the client currently has on his level.
+		// 3: Amount of experience needed to reach the next level.
+		"#format"	"{1:d},{2:d},{3:d}"
+		"zho"			"獲得經驗: {1}+\n經驗限額: {2}/{3}"
+	}
+	
+	"rpgrank"
+	{
+		// 1: Name of the player whos rpgrank is being displayed.
+		// 2: RPG level of the player.
+		// 3: Current rpg rank of the player.
+		// 4: Total number of players ranked.
+		// 5: Amount of experience the player has on his level.
+		// 6: Amount of experience needed to reach the next level.
+		// 7: Amount of rpg credits of the player.
+		"#format"	"{1:N},{2:d},{3:d},{4:d},{5:d},{6:d},{7:d}"
+		"zho"			"{1} 的等級 {2}, 排名 {3}/{4} 擁有 {5}/{6} 經驗 {7} 技能點"
+	}
+	
+	"Top 10 Players"
+	{
+		"zho"			"SM:RPG 排行榜前十玩家"
+	}
+	
+	"Next ranked players"
+	{
+		"zho"			"下一頁玩家排名"
+	}
+	
+	"Player reached maxlevel"
+	{
+		// 1: Name of the player
+		// 2: Maximum level a player can reach.
+		"#format"	"{1:N},{2:d}"
+		"zho"			"{1} 達到最高等級 {2} 並被重置."
+	}
+	
+	// Menu text
+	"Level"
+	{
+		// 1: Current rpg level of the player.
+		"#format" "{1:d}"
+		"zho"			"等級: {1}"
+	}
+	
+	"Experience short"
+	{
+		// 1: Current amount of experience of the player.
+		// 2: Experience required for next level.
+		"#format" "{1:d},{2:d}"
+		"zho"			"經驗: {1}/{2}"
+	}
+	
+	"Experience"
+	{
+		"zho"			"經驗"
+	}
+	
+	"Credits"
+	{
+		// 1: Amount of credits the player has.
+		"#format" "{1:d}"
+		"zho"			"技能點: {1}"
+	}
+	
+	"Rank"
+	{
+		// 1: Current rpg rank of the player.
+		// 2: Total amount of ranked players.
+		"#format" "{1:d},{2:d}"
+		"zho"			"排名: {1}/{2}"
+	}
+	
+	"Last reset"
+	{
+		// 1: date and time representation of the last time the stats were reset to 0 for this player
+		"#format"	"{1:s}"
+		"zho"			"上次重置: {1}"
+	}
+	
+	"Experience Reason Other Client"
+	{
+		// 1: The amount of experience added to a client.
+		// 2: The reason this experience was added for
+		// 3: The name of the other client involved in the reason for this experience. (e.g. name of victim hurt)
+		"#format"	"{1:d},{2:s},{3:N}"
+		"zho"			 "{1} 經驗. 對於 \"{2}\" 針對 {3}"
+	}
+	
+	"Experience Reason General"
+	{
+		// 1: The amount of experience added to a client.
+		// 2: The reason this experience was added for
+		"#format"	"{1:d},{2:s}"
+		"zho"			 "{1} 經驗. 對於 \"{2}\""
+	}
+	
+	"Nothing to display"
+	{
+		"zho"			"沒有什麽可以顯示."
+	}
+	
+	"Cost"
+	{
+		"zho"			"費用"
+	}
+	
+	"Sale"
+	{
+		"zho"			"出售"
+	}
+	
+	"Is teamlocked"
+	{
+		// 1: The team name of the team the upgrade is restricted to.
+		"#format"		"{1:s}"
+		"zho"			"只有 {1} 隊伍可以使用!"
+	}
+	
+	"RPG menu buy upgrade entry max level"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Current level of the upgrade the player has purchased.
+		// 3: "Cost" phrase.
+		// 4: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:t},{4:s}"
+		"zho"			"{1} 等級 {2} 最大值 [{3}: 最大值]{4}"
+	}
+	
+	"RPG menu buy upgrade entry show max"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Next level of the upgrade the player wants to purchase.
+		// 3: Maximal level of the upgrade.
+		// 4: "Cost" phrase.
+		// 5: Upgrade cost for the next level.
+		// 6: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:d},{4:t},{5:d},{6:s}"
+		"zho"			"{1} 等級 {2}/{3} [{4}: {5}]{6}"
+	}
+	
+	"RPG menu buy upgrade entry"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Next level of the upgrade the player wants to purchase.
+		// 3: "Cost" phrase.
+		// 4: Upgrade cost for the next level.
+		// 5: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:t},{4:d},{5:s}"
+		"zho"			"{1} 等級 {2} [{3}: {4}]{5}"
+	}
+	
+	"RPG menu sell upgrade entry show max"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Current level of the upgrade to be sold.
+		// 3: Maximal level of the upgrade.
+		// 4: "Sale" phrase.
+		// 5: Amount of credits player earns for selling the upgrade level.
+		// 6: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:d},{4:t},{5:d},{6:s}"
+		"zho"			"{1} 等級 {2}/{3} [{4}: {5}]{6}"
+	}
+	
+	"RPG menu sell upgrade entry"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Current level of the upgrade to be sold.
+		// 3: "Sale" phrase.
+		// 4: Amount of credits player earns for selling the upgrade level.
+		// 5: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:t},{4:d},{5:s}"
+		"zho"			"{1} 等級 {2} [{3}: {4}]{5}"
+	}
+	
+	"RPG menu upgrade settings entry level selection"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Currently selected level of the upgrade (might be lower than purchased).
+		// 3: Purchased level of the upgrade.
+		// 4: "On" or "Off" phrase depending on if the player has the upgrade enabled.
+		// 5: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:d},{4:t},{5:s}"
+		"zho"			"{1} 等級 {2}/{3} [{4}]{5}"
+	}
+	
+	"RPG menu upgrade settings entry"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Purchased level of the upgrade.
+		// 3: "On" or "Off" phrase depending on if the player has the upgrade enabled.
+		// 4: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:t},{4:s}"
+		"zho"			"{1} 等級 {2} [{3}]{4}"
+	}
+	
+	"RPG menu other players upgrades entry max level"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Purchased level of the upgrade.
+		"#format"	"{1:s},{2:d}"
+		"zho"			"{1} 等級 {2} MAX"
+	}
+	
+	"RPG menu other players upgrades entry show max"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Purchased level of the upgrade.
+		// 3: Maximal level of the upgrade.
+		"#format"	"{1:s},{2:d},{3:d}"
+		"zho"			"{1} 等級 {2}/{3}"
+	}
+	
+	"RPG menu other players upgrades entry"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Purchased level of the upgrade.
+		"#format"	"{1:s},{2:d}"
+		"zho"			"{1} 等級 {2}"
+	}
+	
+	"Session"
+	{
+		"zho"			"會話"
+	}
+	
+	"Playtime"
+	{
+		// 1: The time in hh:mm:ss the player is on the server since he joined.
+		"#format" "{1:s}"
+		"zho"			"會話遊戲時間: {1}"
+	}
+	
+	"Changed level"
+	{
+		"zho"			"等級修改"
+	}
+	
+	"Changed experience"
+	{
+		"zho"			"經驗修改"
+	}
+	
+	"Changed credits"
+	{
+		"zho"			"技能點修改"
+	}
+	
+	"Changed rank"
+	{
+		"zho"			"排名修改"
+	}
+	
+	// Menu Options
+	"Menu"
+	{
+		"zho"			"菜單"
+	}
+	
+	"Upgrades"
+	{
+		"zho"			"技能升級"
+	}
+	
+	"Sell"
+	{
+		"zho"			"出售"
+	}
+	
+	"Upgrade Settings"
+	{
+		"zho"			"升級設置"
+	}
+	
+	"Last Experience"
+	{
+		"zho"			"最新經驗日誌"
+	}
+	
+	"Stats"
+	{
+		"zho"			"統計"
+	}
+	
+	"Settings"
+	{
+		"zho"			"設置"
+	}
+	
+	"Help"
+	{
+		"zho"			"幫助"
+	}
+	
+	"Reset Stats"
+	{
+		"zho"			"重置統計"
+	}
+	
+	"Show menu on levelup"
+	{
+		"zho"			"在菜單顯示等級"
+	}
+	
+	"Fade screen on levelup"
+	{
+		"zho"			"在屏幕閃爍等級"
+	}
+	
+	"Auto refresh panel"
+	{
+		"zho"			"自動刷新"
+	}
+	
+	// Menu selection result
+	"Stats have been reset"
+	{
+		"zho"			"你的統計已經成功重置."
+	}
+	
+	"Maximum level reached"
+	{
+		"zho"			"你已經達到了這個技能的最高等級."
+	}
+	
+	"Not enough credits"
+	{
+		// 1: The name of the upgrade the player wanted to buy.
+		// 2: The level of the upgrade the player wanted to buy.
+		// 3: The amount of credits this level of the upgrade costs.
+		"#format"	"{1:s},{2:d},{3:d}"
+		"zho"			"你沒有足夠的技能點購買 {1} 等級 {2}. (需要 {3} 技能點)"
+	}
+	
+	"Upgrade bought"
+	{
+		// 1: The name of the upgrade the player just bought.
+		// 2: The new level of this upgrade.
+		"#format"	"{1:s},{2:d}"
+		"zho"			"{1} 等級 {2} 成功購買."
+	}
+	
+	"Upgrade purchase notification"
+	{
+		// 1: The name of the player who bought an upgrade.
+		// 2: The name of the upgrade the player just bought.
+		// 3: The new level of this upgrade.
+		"#format"	"{1:N},{2:s},{3:d}"
+		"zho"			"{1} 購買了 {2} 等級 {3}."
+	}
+	
+	"Upgrade sold"
+	{
+		// 1: The name of the upgrade the player just sold.
+		// 2: The new level of this upgrade.
+		"#format"	"{1:s},{2:d}"
+		"zho"			"{1} 等級 {2} 已售出."
+	}
+	
+	//Menu Confirm
+	"Are you sure?"
+	{
+		"zho"			"你確定嗎?"
+	}
+	
+	"Confirm stats reset"
+	{
+		"zho"			"註意: 你將失去所有的等級, 技能點, 和經驗.\n你確定要重置?"
+	}
+	
+	//Menu upgrade settings
+	"Enabled"
+	{
+		"zho"			"啟用"
+	}
+	
+	"Selected level"
+	{
+		"zho"			"選擇等級"
+	}
+	
+	"Increase selected level"
+	{
+		"zho"			"增加選擇的等級"
+	}
+	
+	"Decrease selected level"
+	{
+		"zho"			"減少選擇的等級"
+	}
+	
+	"Visual effects"
+	{
+		"zho"			"視覺效果"
+	}
+	
+	"Sound effects"
+	{
+		"zho"			"聲音效果"
+	}
+	
+	
+	// Admin menu
+	"Commands"
+	{
+		"zho"			"命令"
+	}
+	
+	"Manage players"
+	{
+		"zho"			"玩家管理"
+	}
+	
+	"Select player"
+	{
+		"zho"			"選擇玩家:"
+	}
+	
+	"Player Details"
+	{
+		"zho"			"玩家詳細信息"
+	}
+	
+	"Manage stats"
+	{
+		"zho"			"RPG統計管理"
+	}
+	
+	"Manage upgrades"
+	{
+		"zho"			"技能管理"
+	}
+	
+	"Reset player"
+	{
+		"zho"			"重置玩家"
+	}
+	
+	"Confirm reset player"
+	{
+		// 1: Name of the player to reset stats of.
+		"#format"	"{1:N}"
+		"zho"			"你想要 {1} 重置屬性和升級嗎？"
+	}
+	
+	"Inform player reset"
+	{
+		// 1: Name of the player who's stats got reset.
+		"#format"	"{1:N}"
+		"zho"			"{1}的屬性已經永久重置."
+	}
+	
+	"Change credits"
+	{
+		"zho"			"修改技能點"
+	}
+	
+	"Change experience"
+	{
+		"zho"			"修改經驗"
+	}
+	
+	"Change level"
+	{
+		"zho"			"修改等級"
+	}
+	
+	"Manage player upgrades"
+	{
+		"zho"			"玩家技能管理"
+	}
+	
+	"Give all upgrades free"
+	{
+		"zho"			"免費提供所有技能"
+	}
+	
+	"Adminflags hint"
+	{
+		// 1: The required admin flags like "ab" for that upgrade.
+		"#format"	"{1:s}"
+		"zho"			" (adminflags: {1})"
+	}
+	
+	"Adminflags Admin Denied Warning"
+	{
+		"zho"			"沒有權限拒絕訪問"
+	}
+	
+	"Adminflags Admin Inform OK"
+	{
+		"zho"			"高級權限"
+	}
+	
+	"Teamlock hint"
+	{
+		// 1: The team name this upgrade is locked to.
+		"#format"	"{1:s}"
+		"zho"			" (teamlock: {1})"
+	}
+	
+	"Admin player upgrades list item maxed"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Player's current purchased level of the upgrade.
+		// 3: Maximum level of the upgrade.
+		// 4: Optional required permissions ("Adminflags hint" phrase)
+		// 5: Optional locked team ("Teamlock hint" phrase)
+		"#format"	"{1:s},{2:d},{3:d},{4:s},{5:s}"
+		"zho"			"{1} 等級 最大值 {2}/{3}{4}{5}"
+	}
+	
+	"Admin player upgrades list item"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Player's current purchased level of the upgrade.
+		// 3: Maximum level of the upgrade.
+		// 4: Optional required permissions ("Adminflags hint" phrase)
+		// 5: Optional locked team ("Teamlock hint" phrase)
+		"#format"	"{1:s},{2:d},{3:d},{4:s},{5:s}"
+		"zho"			"{1} 等級 {2}/{3}{4}{5}"
+	}
+	
+	"Confirm max all player upgrades"
+	{
+		// 1: The name of the player who's upgrades should be upgraded.
+		"#format"	"{1:N}"
+		"zho"			"您真的要將 {1} 所有的技能設置為最高等級嗎?"
+	}
+	
+	"Inform player upgrades maxed"
+	{
+		// 1: The name of the player who's upgrades got set to the maximal level.
+		"#format"	"{1:N}"
+		"zho"			"{1} 現在所有的技能都是最高等級."
+	}
+	
+	"Change player upgrade level"
+	{
+		// 1: Name of player who's upgrade level should be changed.
+		"#format"	"{1:N}"
+		"zho"			"修改 {1} 的技能等級"
+	}
+	
+	"Current player upgrade level"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Current purchased level of the upgrade.
+		// 3: Maximal level of the upgrade.
+		"#format"	"{1:s},{2:d},{3:d}"
+		"zho"			"{1}: {2}/{3}"
+	}
+	
+	"Reset player upgrade level 0"
+	{
+		"zho"			"重置技能為0"
+	}
+	
+	"Remove player upgrade level"
+	{
+		"zho"			"強制購買等級"
+	}
+	
+	"Add player upgrade level"
+	{
+		"zho"			"添加等級"
+	}
+	
+	"Set player upgrade level to max"
+	{
+		"zho"			"設置為最高等級"
+	}
+	
+	"Take player upgrade level full refund"
+	{
+		"zho"			"保持等級，全額退還"
+	}
+	
+	"Force player sell upgrade level"
+	{
+		"zho"			"強制出售等級"
+	}
+	
+	"Take player upgrade level no refund"
+	{
+		"zho"			"保持等級，不退還"
+	}
+	
+	"Give player upgrade level for free"
+	{
+		"zho"			"免費提供所有技能等級"
+	}
+	
+	"Force player buy upgrade level"
+	{
+		"zho"			"強制購買等級"
+	}
+	
+	"Admin reset player upgrades notification"
+	{
+		// 1: Name of the player who got his upgrade reset.
+		// 2: Translated name of the upgrade which got reset.
+		// 3: Previous level of the upgrade before resetting.
+		// 4: New upgrade level after resetting (usually 0).
+		// 5: Returned credits for the bought upgrade levels. Full refund = same amount player payed for it.
+		"#format"	"{1:N},{2:s},{3:d},{4:d},{5:d}"
+		"zho"			"重置 {1}的等級 {2} 全額退還所有技能費用 {3} 到 {4} 玩家獲得了 {5} 技能點."
+	}
+	
+	"Admin force buy insufficient funds"
+	{
+		// 1: Name of the player who was forced to buy the upgrade.
+		// 2: Translated name of the upgrade.
+		// 3: Current amount of credits the client has.
+		// 4: Cost for the next level of the upgrade.
+		"#format"	"{1:N},{2:s},{3:d},{4:d}"
+		"zho"			"{1} 沒有足夠的技能點購買 {2} ({3}/{4})"
+	}
+	
+	"Upgrade short name"
+	{
+		// 1: Shortname of the upgrade (used in commands to reference it)
+		"#format"	"{1:s}"
+		"zho"			"S短名稱: {1}"
+	}
+	
+	"Admin disable upgrade"
+	{
+		"zho"			"禁用技能"
+	}
+	
+	"Admin enable upgrade"
+	{
+		"zho"			"啟用技能"
+	}
+	
+	"Admin upgrade info maxlevel barrier"
+	{
+		// 1: Maximal level the upgrade can be set to / supports.
+		"#format"	"{1:d}"
+		"zho"			"最高等級屏障: {1}"
+	}
+	
+	"Admin upgrade info maxlevel"
+	{
+		// 1: Current maximal level of the upgrade.
+		"#format"	"{1:d}"
+		"zho"			"最高等級: {1}"
+	}
+	
+	"Admin upgrade info cost"
+	{
+		// 1: Current upgrade starting cost.
+		"#format"	"{1:d}"
+		"zho"			"費用: {1}"
+	}
+	
+	"Admin upgrade info increase cost"
+	{
+		// 1: Current upgrade increasing cost.
+		"#format"	"{1:d}"
+		"zho"			"增加費用: {1}"
+	}
+	
+	"Admin upgrade info teamlock"
+	{
+		// 1: Team name of the team this upgrade is locked to.
+		"#format"	"{1:s}"
+		"zho"			"隊伍鎖定: {1}"
+	}
+	
+	"Admin upgrade info visual effects"
+	{
+		// 1: Translated "On" or "Off"
+		"#format"	"{1:t}"
+		"zho"			"視覺效果: {1}"
+	}
+	
+	"Admin upgrade info sound effects"
+	{
+		// 1: Translated "On" or "Off"
+		"#format"	"{1:t}"
+		"zho"			"聲音效果: {1}"
+	}
+	
+	"Admin upgrades change maxlevel"
+	{
+		// 1: Current upgrade's maxlevel.
+		"#format"	"{1:d}"
+		"zho"			"臨時修改最高等級: {1}"
+	}
+	
+	"Admin upgrades change start cost"
+	{
+		// 1: Current upgrade's start cost.
+		"#format"	"{1:d}"
+		"zho"			"臨時修改起始費用: {1}"
+	}
+	
+	"Admin upgrades change increasing cost"
+	{
+		// 1: Current upgrade's increasing cost.
+		"#format"	"{1:d}"
+		"zho"			"臨時增加費用: {1}"
+	}
+	
+	
+	// Command help
+	"rpgmenu short desc"
+	{
+		"zho"			"打開技能菜單"
+	}
+	
+	"rpgmenu desc"
+	{
+		"zho"			"打開技能菜單,你可以購買&出售&升級你的技能,查看你的詳細資料,查看命令列表,或者更改其他設置."
+	}
+	
+	"rpgmenu advert"
+	{
+		"zho"			"在聊天欄輸入 {N}rpgmenu{G} 打開RPG主菜單和 {N}管理你的升級技能{G} 和其它選項."
+	}
+	
+	"rpgrank short desc"
+	{
+		"zho"			"顯示你的排名或目標人的排名"
+	}
+	
+	"rpgrank desc"
+	{
+		"zho"			"顯示你的排名或目標人的排名. 用法: {N}rpgrank [name|#steamid|#userid]"
+	}
+	
+	"rpgrank advert"
+	{
+		"zho"			"在聊天欄輸入 {N}rpgrank{G} 來顯示自己的統計數據或輸入 {N}rpgrank <playername>{G} 來顯示其他玩家的排名."
+	}
+	
+	"rpginfo short desc"
+	{
+		"zho"			"顯示其他人購買的技能"
+	}
+	
+	"rpginfo desc"
+	{
+		"zho"			"輸入: rpginfo <名字|#steamid|#userid>"
+	}
+	
+	"rpginfo advert"
+	{
+		"zho"			"在聊天欄輸入 {N}rpginfo <playername>{G} 可以查看其他玩家購買的升級."
+	}
+	
+	"rpgtop10 short desc"
+	{
+		"zho"			"顯示RPG前10位排行榜"
+	}
+	
+	"rpgtop10 desc"
+	{
+		"zho"			"顯示在這個服務器排行榜前10名的玩家."
+	}
+	
+	"rpgtop10 advert"
+	{
+		"zho"			"在聊天欄輸入 {N}rpgtop10{G} 查看該服務器上RPG排名前十的玩家."
+	}
+	
+	"rpgnext short desc"
+	{
+		"zho"			"顯示排行榜中你排在你前面玩家的資料"
+	}
+	
+	"rpgnext desc"
+	{
+		"zho"			"顯示排名在你前面的玩家."
+	}
+	
+	"rpgnext advert"
+	{
+		"zho"			"在聊天欄輸入 {N}rpgnext{G} 查看排名在你前面的玩家列表."
+	}
+	
+	"rpgsession short desc"
+	{
+		"zho"			"顯示你當前會話的RPG統計"
+	}
+	
+	"rpgsession desc"
+	{
+		"zho"			"顯示你的RPG詳細資料."
+	}
+	
+	"rpgsession advert"
+	{
+		"zho"			"在聊天欄輸入 {N}rpgsession{G} 檢查在當前會話統計資料的變化."
+	}
+	
+	"rpghelp short desc"
+	{
+		"zho"			"顯示每個技能的作用"
+	}
+	
+	"rpghelp desc"
+	{
+		"zho"			"顯示SM：RPG幫助菜單，你得到不同的可升級的詳細描述."
+	}
+	
+	"rpghelp advert"
+	{
+		"zho"			"在聊天欄輸入 {N}rpghelp{G} 來查看技能的詳細描述"
+	}
+	
+	"rpgexp short desc"
+	{
+		"zho"			"顯示最近獲得的的經驗"
+	}
+	
+	"rpgexp desc"
+	{
+		"zho"			"顯示你獲得最近經驗的數量和原因."
+	}
+	
+	"rpgexp advert"
+	{
+		// 1: Value of smrpg_lastexperience_count. The amount of experience saved in the array.
+		"#format" "{1:d}"
+		"zho"			"在聊天欄輸入 {N}rpgexp{G} 來查看最新列表 {1} 你獲得的最新經驗的數量和原因."
+	}
+}
