@@ -1,0 +1,12 @@
+"Phrases"
+{
+	"Commands"
+	{
+		"chi"			"命令"
+	}
+	
+	"Hide chat adverts"
+	{
+		"chi"			"隐藏在聊天栏中可用的命令信息"
+	}
+}
