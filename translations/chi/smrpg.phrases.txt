@@ -9,7 +9,7 @@
 	
 	"Advertise rpgmenu command"
 	{
-		"chi"			"{G}在聊天栏输入 \"{N}rpgmenu{G}\" 来选择选项."
+		"chi"			"{G}在聊天栏输入 \"{N}rpgmenu{G}\" 或\"{N}rpg{G}\" 来选择选项."
 	}
 	
 	"Client level changed"
@@ -762,7 +762,7 @@
 	
 	"rpgmenu advert"
 	{
-		"chi"			"在聊天栏输入 {N}rpgmenu{G} 打开RPG主菜单和 {N}管理你的升级技能{G} 和其它选项."
+		"chi"			"在聊天栏输入 {N}rpgmenu{G} 或 {N}rpg{G} 打开RPG主菜单和 {N}管理你的升级技能{G} 和其它选项."
 	}
 	
 	"rpgrank short desc"
