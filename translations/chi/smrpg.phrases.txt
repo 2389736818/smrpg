@@ -1,0 +1,874 @@
+"Phrases"
+{
+	"Inform about plugin"
+	{
+		// 1: Running SM:RPG plugin version (e.g. 1.0)
+		"#format" "{1:s}"
+		"chi"			"该服务器正在运行 v{1}."
+	}
+	
+	"Advertise rpgmenu command"
+	{
+		"chi"			"{G}在聊天栏输入 \"{N}rpgmenu{G}\" 来选择选项."
+	}
+	
+	"Client level changed"
+	{
+		// 1: Name of the client which level has changed.
+		// 2: New rpg level of the client
+		"#format"	"{1:N},{2:d}"
+		"chi"			"{1} 升级到 {2}."
+	}
+	
+	"You have new credits"
+	{
+		// 1: Total amount of credits the player currently has.
+		"#format"	"{1:d}"
+		"chi"			"你有新的技能点 ({1} total). 在聊天栏输入 \"rpgmenu\" 或 \"rpg\" 来购买升级技能."
+	}
+	
+	//Newbie Text
+	"Newbie instructions new level"
+	{
+		"chi"			"{G}你已经获得 {N}新的等级{G}! 这意味着你可以 {N}购买升级技能{G} 能够让你比对手更有优势."
+	}
+	
+	"Newbie instructions use rpgmenu"
+	{
+		"chi"			"{G}输入 \"{L}rpgmenu{G}\" 或 \"{L}rpg{G}\" 进入菜单来升级你的技能."
+	}
+	
+	//Experience Hintbox
+	"Experience Gained Hintbox"
+	{
+		// 1: Amount of experience the client just gained.
+		// 2: Total amount of experience the client currently has on his level.
+		// 3: Amount of experience needed to reach the next level.
+		"#format"	"{1:d},{2:d},{3:d}"
+		"chi"			"获得经验: {1}+\n经验限额: {2}/{3}"
+	}
+	
+	"rpgrank"
+	{
+		// 1: Name of the player whos rpgrank is being displayed.
+		// 2: RPG level of the player.
+		// 3: Current rpg rank of the player.
+		// 4: Total number of players ranked.
+		// 5: Amount of experience the player has on his level.
+		// 6: Amount of experience needed to reach the next level.
+		// 7: Amount of rpg credits of the player.
+		"#format"	"{1:N},{2:d},{3:d},{4:d},{5:d},{6:d},{7:d}"
+		"chi"			"{1} 的等级 {2}, 排名 {3}/{4} 拥有 {5}/{6} 经验 {7} 技能点"
+	}
+	
+	"Top 10 Players"
+	{
+		"chi"			"SM:RPG 排行榜前十玩家"
+	}
+	
+	"Next ranked players"
+	{
+		"chi"			"下一页玩家排名"
+	}
+	
+	"Player reached maxlevel"
+	{
+		// 1: Name of the player
+		// 2: Maximum level a player can reach.
+		"#format"	"{1:N},{2:d}"
+		"chi"			"{1} 达到最高等级 {2} 并被重置."
+	}
+	
+	// Menu text
+	"Level"
+	{
+		// 1: Current rpg level of the player.
+		"#format" "{1:d}"
+		"chi"			"等级: {1}"
+	}
+	
+	"Experience short"
+	{
+		// 1: Current amount of experience of the player.
+		// 2: Experience required for next level.
+		"#format" "{1:d},{2:d}"
+		"chi"			"经验: {1}/{2}"
+	}
+	
+	"Experience"
+	{
+		"chi"			"经验"
+	}
+	
+	"Credits"
+	{
+		// 1: Amount of credits the player has.
+		"#format" "{1:d}"
+		"chi"			"技能点: {1}"
+	}
+	
+	"Rank"
+	{
+		// 1: Current rpg rank of the player.
+		// 2: Total amount of ranked players.
+		"#format" "{1:d},{2:d}"
+		"chi"			"排名: {1}/{2}"
+	}
+	
+	"Last reset"
+	{
+		// 1: date and time representation of the last time the stats were reset to 0 for this player
+		"#format"	"{1:s}"
+		"chi"			"上次重置: {1}"
+	}
+	
+	"Experience Reason Other Client"
+	{
+		// 1: The amount of experience added to a client.
+		// 2: The reason this experience was added for
+		// 3: The name of the other client involved in the reason for this experience. (e.g. name of victim hurt)
+		"#format"	"{1:d},{2:s},{3:N}"
+		"chi"			 "{1} 经验. 对于 \"{2}\" 针对 {3}"
+	}
+	
+	"Experience Reason General"
+	{
+		// 1: The amount of experience added to a client.
+		// 2: The reason this experience was added for
+		"#format"	"{1:d},{2:s}"
+		"chi"			 "{1} 经验. 对于 \"{2}\""
+	}
+	
+	"Nothing to display"
+	{
+		"chi"			"没有什么可以显示."
+	}
+	
+	"Cost"
+	{
+		"chi"			"费用"
+	}
+	
+	"Sale"
+	{
+		"chi"			"出售"
+	}
+	
+	"Is teamlocked"
+	{
+		// 1: The team name of the team the upgrade is restricted to.
+		"#format"		"{1:s}"
+		"chi"			"只有 {1} 队伍可以使用!"
+	}
+	
+	"RPG menu buy upgrade entry max level"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Current level of the upgrade the player has purchased.
+		// 3: "Cost" phrase.
+		// 4: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:t},{4:s}"
+		"chi"			"{1} 等级 {2} 最大值 [{3}: 最大值]{4}"
+	}
+	
+	"RPG menu buy upgrade entry show max"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Next level of the upgrade the player wants to purchase.
+		// 3: Maximal level of the upgrade.
+		// 4: "Cost" phrase.
+		// 5: Upgrade cost for the next level.
+		// 6: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:d},{4:t},{5:d},{6:s}"
+		"chi"			"{1} 等级 {2}/{3} [{4}: {5}]{6}"
+	}
+	
+	"RPG menu buy upgrade entry"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Next level of the upgrade the player wants to purchase.
+		// 3: "Cost" phrase.
+		// 4: Upgrade cost for the next level.
+		// 5: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:t},{4:d},{5:s}"
+		"chi"			"{1} 等级 {2} [{3}: {4}]{5}"
+	}
+	
+	"RPG menu sell upgrade entry show max"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Current level of the upgrade to be sold.
+		// 3: Maximal level of the upgrade.
+		// 4: "Sale" phrase.
+		// 5: Amount of credits player earns for selling the upgrade level.
+		// 6: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:d},{4:t},{5:d},{6:s}"
+		"chi"			"{1} 等级 {2}/{3} [{4}: {5}]{6}"
+	}
+	
+	"RPG menu sell upgrade entry"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Current level of the upgrade to be sold.
+		// 3: "Sale" phrase.
+		// 4: Amount of credits player earns for selling the upgrade level.
+		// 5: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:t},{4:d},{5:s}"
+		"chi"			"{1} 等级 {2} [{3}: {4}]{5}"
+	}
+	
+	"RPG menu upgrade settings entry level selection"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Currently selected level of the upgrade (might be lower than purchased).
+		// 3: Purchased level of the upgrade.
+		// 4: "On" or "Off" phrase depending on if the player has the upgrade enabled.
+		// 5: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:d},{4:t},{5:s}"
+		"chi"			"{1} 等级 {2}/{3} [{4}]{5}"
+	}
+	
+	"RPG menu upgrade settings entry"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Purchased level of the upgrade.
+		// 3: "On" or "Off" phrase depending on if the player has the upgrade enabled.
+		// 4: Optional " (Is teamlocked)" phrase if upgrade is locked to a team.
+		"#format"	"{1:s},{2:d},{3:t},{4:s}"
+		"chi"			"{1} 等级 {2} [{3}]{4}"
+	}
+	
+	"RPG menu other players upgrades entry max level"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Purchased level of the upgrade.
+		"#format"	"{1:s},{2:d}"
+		"chi"			"{1} 等级 {2} MAX"
+	}
+	
+	"RPG menu other players upgrades entry show max"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Purchased level of the upgrade.
+		// 3: Maximal level of the upgrade.
+		"#format"	"{1:s},{2:d},{3:d}"
+		"chi"			"{1} 等级 {2}/{3}"
+	}
+	
+	"RPG menu other players upgrades entry"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Purchased level of the upgrade.
+		"#format"	"{1:s},{2:d}"
+		"chi"			"{1} 等级 {2}"
+	}
+	
+	"Session"
+	{
+		"chi"			"会话"
+	}
+	
+	"Playtime"
+	{
+		// 1: The time in hh:mm:ss the player is on the server since he joined.
+		"#format" "{1:s}"
+		"chi"			"会话游戏时间: {1}"
+	}
+	
+	"Changed level"
+	{
+		"chi"			"等级修改"
+	}
+	
+	"Changed experience"
+	{
+		"chi"			"经验修改"
+	}
+	
+	"Changed credits"
+	{
+		"chi"			"技能点修改"
+	}
+	
+	"Changed rank"
+	{
+		"chi"			"排名修改"
+	}
+	
+	// Menu Options
+	"Menu"
+	{
+		"chi"			"菜单"
+	}
+	
+	"Upgrades"
+	{
+		"chi"			"技能升级"
+	}
+	
+	"Sell"
+	{
+		"chi"			"出售"
+	}
+	
+	"Upgrade Settings"
+	{
+		"chi"			"升级设置"
+	}
+	
+	"Last Experience"
+	{
+		"chi"			"最新经验日志"
+	}
+	
+	"Stats"
+	{
+		"chi"			"统计"
+	}
+	
+	"Settings"
+	{
+		"chi"			"设置"
+	}
+	
+	"Help"
+	{
+		"chi"			"帮助"
+	}
+	
+	"Reset Stats"
+	{
+		"chi"			"重置统计"
+	}
+	
+	"Show menu on levelup"
+	{
+		"chi"			"在菜单显示等级"
+	}
+	
+	"Fade screen on levelup"
+	{
+		"chi"			"在屏幕闪烁等级"
+	}
+	
+	"Auto refresh panel"
+	{
+		"chi"			"自动刷新"
+	}
+	
+	// Menu selection result
+	"Stats have been reset"
+	{
+		"chi"			"你的统计已经成功重置."
+	}
+	
+	"Maximum level reached"
+	{
+		"chi"			"你已经达到了这个技能的最高等级."
+	}
+	
+	"Not enough credits"
+	{
+		// 1: The name of the upgrade the player wanted to buy.
+		// 2: The level of the upgrade the player wanted to buy.
+		// 3: The amount of credits this level of the upgrade costs.
+		"#format"	"{1:s},{2:d},{3:d}"
+		"chi"			"你没有足够的技能点购买 {1} 等级 {2}. (需要 {3} 技能点)"
+	}
+	
+	"Upgrade bought"
+	{
+		// 1: The name of the upgrade the player just bought.
+		// 2: The new level of this upgrade.
+		"#format"	"{1:s},{2:d}"
+		"chi"			"{1} 等级 {2} 成功购买."
+	}
+	
+	"Upgrade purchase notification"
+	{
+		// 1: The name of the player who bought an upgrade.
+		// 2: The name of the upgrade the player just bought.
+		// 3: The new level of this upgrade.
+		"#format"	"{1:N},{2:s},{3:d}"
+		"chi"			"{1} 购买了 {2} 等级 {3}."
+	}
+	
+	"Upgrade sold"
+	{
+		// 1: The name of the upgrade the player just sold.
+		// 2: The new level of this upgrade.
+		"#format"	"{1:s},{2:d}"
+		"chi"			"{1} 等级 {2} 已售出."
+	}
+	
+	//Menu Confirm
+	"Are you sure?"
+	{
+		"chi"			"你确定吗?"
+	}
+	
+	"Confirm stats reset"
+	{
+		"chi"			"注意: 你将失去所有的等级, 技能点, 和经验.\n你确定要重置?"
+	}
+	
+	//Menu upgrade settings
+	"Enabled"
+	{
+		"chi"			"启用"
+	}
+	
+	"Selected level"
+	{
+		"chi"			"选择等级"
+	}
+	
+	"Increase selected level"
+	{
+		"chi"			"增加选择的等级"
+	}
+	
+	"Decrease selected level"
+	{
+		"chi"			"减少选择的等级"
+	}
+	
+	"Visual effects"
+	{
+		"chi"			"视觉效果"
+	}
+	
+	"Sound effects"
+	{
+		"chi"			"声音效果"
+	}
+	
+	
+	// Admin menu
+	"Commands"
+	{
+		"chi"			"命令"
+	}
+	
+	"Manage players"
+	{
+		"chi"			"玩家管理"
+	}
+	
+	"Select player"
+	{
+		"chi"			"选择玩家:"
+	}
+	
+	"Player Details"
+	{
+		"chi"			"玩家详细信息"
+	}
+	
+	"Manage stats"
+	{
+		"chi"			"RPG统计管理"
+	}
+	
+	"Manage upgrades"
+	{
+		"chi"			"技能管理"
+	}
+	
+	"Reset player"
+	{
+		"chi"			"重置玩家"
+	}
+	
+	"Confirm reset player"
+	{
+		// 1: Name of the player to reset stats of.
+		"#format"	"{1:N}"
+		"chi"			"你想要 {1} 重置属性和升级吗？"
+	}
+	
+	"Inform player reset"
+	{
+		// 1: Name of the player who's stats got reset.
+		"#format"	"{1:N}"
+		"chi"			"{1}的属性已经永久重置."
+	}
+	
+	"Change credits"
+	{
+		"chi"			"修改技能点"
+	}
+	
+	"Change experience"
+	{
+		"chi"			"修改经验"
+	}
+	
+	"Change level"
+	{
+		"chi"			"修改等级"
+	}
+	
+	"Manage player upgrades"
+	{
+		"chi"			"玩家技能管理"
+	}
+	
+	"Give all upgrades free"
+	{
+		"chi"			"免费提供所有技能"
+	}
+	
+	"Adminflags hint"
+	{
+		// 1: The required admin flags like "ab" for that upgrade.
+		"#format"	"{1:s}"
+		"chi"			" (adminflags: {1})"
+	}
+	
+	"Adminflags Admin Denied Warning"
+	{
+		"chi"			"没有权限拒绝访问"
+	}
+	
+	"Adminflags Admin Inform OK"
+	{
+		"chi"			"高级权限"
+	}
+	
+	"Teamlock hint"
+	{
+		// 1: The team name this upgrade is locked to.
+		"#format"	"{1:s}"
+		"chi"			" (teamlock: {1})"
+	}
+	
+	"Admin player upgrades list item maxed"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Player's current purchased level of the upgrade.
+		// 3: Maximum level of the upgrade.
+		// 4: Optional required permissions ("Adminflags hint" phrase)
+		// 5: Optional locked team ("Teamlock hint" phrase)
+		"#format"	"{1:s},{2:d},{3:d},{4:s},{5:s}"
+		"chi"			"{1} 等级 最大值 {2}/{3}{4}{5}"
+	}
+	
+	"Admin player upgrades list item"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Player's current purchased level of the upgrade.
+		// 3: Maximum level of the upgrade.
+		// 4: Optional required permissions ("Adminflags hint" phrase)
+		// 5: Optional locked team ("Teamlock hint" phrase)
+		"#format"	"{1:s},{2:d},{3:d},{4:s},{5:s}"
+		"chi"			"{1} 等级 {2}/{3}{4}{5}"
+	}
+	
+	"Confirm max all player upgrades"
+	{
+		// 1: The name of the player who's upgrades should be upgraded.
+		"#format"	"{1:N}"
+		"chi"			"您真的要将 {1} 所有的技能设置为最高等级吗?"
+	}
+	
+	"Inform player upgrades maxed"
+	{
+		// 1: The name of the player who's upgrades got set to the maximal level.
+		"#format"	"{1:N}"
+		"chi"			"{1} 现在所有的技能都是最高等级."
+	}
+	
+	"Change player upgrade level"
+	{
+		// 1: Name of player who's upgrade level should be changed.
+		"#format"	"{1:N}"
+		"chi"			"修改 {1} 的技能等级"
+	}
+	
+	"Current player upgrade level"
+	{
+		// 1: Translated name of the upgrade.
+		// 2: Current purchased level of the upgrade.
+		// 3: Maximal level of the upgrade.
+		"#format"	"{1:s},{2:d},{3:d}"
+		"chi"			"{1}: {2}/{3}"
+	}
+	
+	"Reset player upgrade level 0"
+	{
+		"chi"			"重置技能为0"
+	}
+	
+	"Remove player upgrade level"
+	{
+		"chi"			"强制购买等级"
+	}
+	
+	"Add player upgrade level"
+	{
+		"chi"			"添加等级"
+	}
+	
+	"Set player upgrade level to max"
+	{
+		"chi"			"设置为最高等级"
+	}
+	
+	"Take player upgrade level full refund"
+	{
+		"chi"			"保持等级，全额退还"
+	}
+	
+	"Force player sell upgrade level"
+	{
+		"chi"			"强制出售等级"
+	}
+	
+	"Take player upgrade level no refund"
+	{
+		"chi"			"保持等级，不退还"
+	}
+	
+	"Give player upgrade level for free"
+	{
+		"chi"			"免费提供所有技能等级"
+	}
+	
+	"Force player buy upgrade level"
+	{
+		"chi"			"强制购买等级"
+	}
+	
+	"Admin reset player upgrades notification"
+	{
+		// 1: Name of the player who got his upgrade reset.
+		// 2: Translated name of the upgrade which got reset.
+		// 3: Previous level of the upgrade before resetting.
+		// 4: New upgrade level after resetting (usually 0).
+		// 5: Returned credits for the bought upgrade levels. Full refund = same amount player payed for it.
+		"#format"	"{1:N},{2:s},{3:d},{4:d},{5:d}"
+		"chi"			"重置 {1}的等级 {2} 全额退还所有技能费用 {3} 到 {4} 玩家获得了 {5} 技能点."
+	}
+	
+	"Admin force buy insufficient funds"
+	{
+		// 1: Name of the player who was forced to buy the upgrade.
+		// 2: Translated name of the upgrade.
+		// 3: Current amount of credits the client has.
+		// 4: Cost for the next level of the upgrade.
+		"#format"	"{1:N},{2:s},{3:d},{4:d}"
+		"chi"			"{1} 没有足够的技能点购买 {2} ({3}/{4})"
+	}
+	
+	"Upgrade short name"
+	{
+		// 1: Shortname of the upgrade (used in commands to reference it)
+		"#format"	"{1:s}"
+		"chi"			"S短名称: {1}"
+	}
+	
+	"Admin disable upgrade"
+	{
+		"chi"			"禁用技能"
+	}
+	
+	"Admin enable upgrade"
+	{
+		"chi"			"启用技能"
+	}
+	
+	"Admin upgrade info maxlevel barrier"
+	{
+		// 1: Maximal level the upgrade can be set to / supports.
+		"#format"	"{1:d}"
+		"chi"			"最高等级屏障: {1}"
+	}
+	
+	"Admin upgrade info maxlevel"
+	{
+		// 1: Current maximal level of the upgrade.
+		"#format"	"{1:d}"
+		"chi"			"最高等级: {1}"
+	}
+	
+	"Admin upgrade info cost"
+	{
+		// 1: Current upgrade starting cost.
+		"#format"	"{1:d}"
+		"chi"			"费用: {1}"
+	}
+	
+	"Admin upgrade info increase cost"
+	{
+		// 1: Current upgrade increasing cost.
+		"#format"	"{1:d}"
+		"chi"			"增加费用: {1}"
+	}
+	
+	"Admin upgrade info teamlock"
+	{
+		// 1: Team name of the team this upgrade is locked to.
+		"#format"	"{1:s}"
+		"chi"			"队伍锁定: {1}"
+	}
+	
+	"Admin upgrade info visual effects"
+	{
+		// 1: Translated "On" or "Off"
+		"#format"	"{1:t}"
+		"chi"			"视觉效果: {1}"
+	}
+	
+	"Admin upgrade info sound effects"
+	{
+		// 1: Translated "On" or "Off"
+		"#format"	"{1:t}"
+		"chi"			"声音效果: {1}"
+	}
+	
+	"Admin upgrades change maxlevel"
+	{
+		// 1: Current upgrade's maxlevel.
+		"#format"	"{1:d}"
+		"chi"			"临时修改最高等级: {1}"
+	}
+	
+	"Admin upgrades change start cost"
+	{
+		// 1: Current upgrade's start cost.
+		"#format"	"{1:d}"
+		"chi"			"临时修改起始费用: {1}"
+	}
+	
+	"Admin upgrades change increasing cost"
+	{
+		// 1: Current upgrade's increasing cost.
+		"#format"	"{1:d}"
+		"chi"			"临时增加费用: {1}"
+	}
+	
+	
+	// Command help
+	"rpgmenu short desc"
+	{
+		"chi"			"打开技能菜单"
+	}
+	
+	"rpgmenu desc"
+	{
+		"chi"			"打开技能菜单,你可以购买&出售&升级你的技能,查看你的详细资料,查看命令列表,或者更改其他设置."
+	}
+	
+	"rpgmenu advert"
+	{
+		"chi"			"在聊天栏输入 {N}rpgmenu{G} 打开RPG主菜单和 {N}管理你的升级技能{G} 和其它选项."
+	}
+	
+	"rpgrank short desc"
+	{
+		"chi"			"显示你的排名或目标人的排名"
+	}
+	
+	"rpgrank desc"
+	{
+		"chi"			"显示你的排名或目标人的排名. 用法: {N}rpgrank [name|#steamid|#userid]"
+	}
+	
+	"rpgrank advert"
+	{
+		"chi"			"在聊天栏输入 {N}rpgrank{G} 来显示自己的统计数据或输入 {N}rpgrank <playername>{G} 来显示其他玩家的排名."
+	}
+	
+	"rpginfo short desc"
+	{
+		"chi"			"显示其他人购买的技能"
+	}
+	
+	"rpginfo desc"
+	{
+		"chi"			"输入: rpginfo <名字|#steamid|#userid>"
+	}
+	
+	"rpginfo advert"
+	{
+		"chi"			"在聊天栏输入 {N}rpginfo <playername>{G} 可以查看其他玩家购买的升级."
+	}
+	
+	"rpgtop10 short desc"
+	{
+		"chi"			"显示RPG前10位排行榜"
+	}
+	
+	"rpgtop10 desc"
+	{
+		"chi"			"显示在这个服务器排行榜前10名的玩家."
+	}
+	
+	"rpgtop10 advert"
+	{
+		"chi"			"在聊天栏输入 {N}rpgtop10{G} 查看该服务器上RPG排名前十的玩家."
+	}
+	
+	"rpgnext short desc"
+	{
+		"chi"			"显示排行榜中你排在你前面玩家的资料"
+	}
+	
+	"rpgnext desc"
+	{
+		"chi"			"显示排名在你前面的玩家."
+	}
+	
+	"rpgnext advert"
+	{
+		"chi"			"在聊天栏输入 {N}rpgnext{G} 查看排名在你前面的玩家列表."
+	}
+	
+	"rpgsession short desc"
+	{
+		"chi"			"显示你当前会话的RPG统计"
+	}
+	
+	"rpgsession desc"
+	{
+		"chi"			"显示你的RPG详细资料."
+	}
+	
+	"rpgsession advert"
+	{
+		"chi"			"在聊天栏输入 {N}rpgsession{G} 检查在当前会话统计资料的变化."
+	}
+	
+	"rpghelp short desc"
+	{
+		"chi"			"显示每个技能的作用"
+	}
+	
+	"rpghelp desc"
+	{
+		"chi"			"显示SM：RPG帮助菜单，你得到不同的可升级的详细描述."
+	}
+	
+	"rpghelp advert"
+	{
+		"chi"			"在聊天栏输入 {N}rpghelp{G} 来查看技能的详细描述"
+	}
+	
+	"rpgexp short desc"
+	{
+		"chi"			"显示最近获得的的经验"
+	}
+	
+	"rpgexp desc"
+	{
+		"chi"			"显示你获得最近经验的数量和原因."
+	}
+	
+	"rpgexp advert"
+	{
+		// 1: Value of smrpg_lastexperience_count. The amount of experience saved in the array.
+		"#format" "{1:d}"
+		"chi"			"在聊天栏输入 {N}rpgexp{G} 来查看最新列表 {1} 你获得的最新经验的数量和原因."
+	}
+}
