@@ -1,0 +1,27 @@
+"Phrases"
+{
+	"Earned experience for kill"
+	{
+		// 1: Experience earned for killing a player.
+		// 2: Player name of victim.
+		"#format"		"{1:d},{2:N}"
+		"chi"			"你击杀了 {N}{2}{G} 获得 RB}{1}{G} 经验."
+	}
+
+	"Total earned experience during past life"
+	{
+		// 1: Experience earned during last life
+		"#format"		"{1:d}"
+		"chi"			"你获得 {RB}{1}{G} 你上一场期间的总经验!"
+	}
+	
+	"Print xp for last kill in chat"
+	{
+		"chi"			"在聊天栏查看获得经验的数量"
+	}
+
+	"Print total xp last life in chat"
+	{
+		"chi"			"在聊天栏查看最后一场过程中赢得经验的显示数量"
+	}
+}
