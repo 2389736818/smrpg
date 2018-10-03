@@ -1,0 +1,100 @@
+"Phrases"
+{
+	"Player is knifeleveling"
+	{
+		// 1: Name of player who is earning levels
+		// 2: Name of the player who gets knifed, so the other player gets experience
+		"#format"	"{1:N},{2:N}"
+		"chi"			"{N}{1}{G} 被怀疑使用刀升级技能 {N}{2}{G}."
+	}
+	
+	"cs_playerknife"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"chi"			"使用刀伤害 {2} 获得 {1} 经验"
+	}
+	
+	"cs_playerhurt"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"chi"			"伤害 {2} 获得 {1} 经验"
+	}
+	
+	"cs_playerkill"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"chi"			"击杀 {2} 获得 {1} 经验"
+	}
+	
+	"cs_playerkillassist"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"chi"			"协助击杀 {2} 获得 {1} 经验"
+	}
+	
+	"cs_dominating"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"chi"			"主宰 {2} 获得 {1} 经验"
+	}
+	
+	"cs_revenge"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"chi"			"复仇 {2} 获得 {1} 经验"
+	}
+	
+	"cs_winround"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"chi"			"获胜 {2} 获得 {1} 经验"
+	}
+	
+	"cs_bombplanted"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"chi"			"安放炸弹 {2} 获得 {1} 经验"
+	}
+	
+	"cs_bombdefused"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"chi"			"拆除炸弹 {2} 获得 {1} 经验"
+	}
+	
+	"cs_bombexploded"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"chi"			"炸弹爆炸 {2} 获得 {1} 经验"
+	}
+	
+	"cs_hostagerescued"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"chi"			"解救人质 {2} 获得 {1} 经验"
+	}
+	
+	"cs_vipescaped"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"chi"			"VIP逃脱 {2} 获得 {1} 经验"
+	}
+}
