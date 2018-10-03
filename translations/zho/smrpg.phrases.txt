@@ -9,7 +9,7 @@
 	
 	"Advertise rpgmenu command"
 	{
-		"zho"			"{G}在聊天欄輸入 \"{N}rpgmenu{G}\" 來選擇選項."
+		"zho"			"{G}在聊天欄輸入 \"{N}rpgmenu{G}\" 或\"{N}rpg{G}\" 來選擇選項."
 	}
 	
 	"Client level changed"
@@ -762,7 +762,7 @@
 	
 	"rpgmenu advert"
 	{
-		"zho"			"在聊天欄輸入 {N}rpgmenu{G} 打開RPG主菜單和 {N}管理你的升級技能{G} 和其它選項."
+		"zho"			"在聊天欄輸入 {N}rpgmenu{G} 或 {N}rpg{G} 打開RPG主菜單和 {N}管理你的升級技能{G} 和其它選項."
 	}
 	
 	"rpgrank short desc"
