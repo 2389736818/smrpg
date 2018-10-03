@@ -1,0 +1,312 @@
+"Phrases"
+{
+	"regen"
+	{
+		"chi"			"血量恢复"
+	}
+	
+	"regen description"
+	{
+		"chi"			"定时恢复血量."
+	}
+	
+	"health"
+	{
+		"chi"			"生命值+"
+	}
+	
+	"health description"
+	{
+		"chi"			"增加到最大生命."
+	}
+	
+	"resup"
+	{
+		"chi"			"补给"
+	}
+	
+	"resup description"
+	{
+		"chi"			"每第三秒补充弹药."
+	}
+	
+	"vamp"
+	{
+		"chi"			"吸血(求生技能)"
+	}
+	
+	"vamp description"
+	{
+		"chi"			"输出伤害时,恢复生命值."
+	}
+	
+	"stealth"
+	{
+		"chi"			"隐身"
+	}
+	
+	"stealth description"
+	{
+		"chi"			"使自己越来越透明."
+	}
+	
+	"ljump"
+	{
+		"chi"			"加速跳"
+	}
+	
+	"ljump description"
+	{
+		"chi"			"提高你的跳跃速度."
+	}
+	
+	"fnade"
+	{
+		"chi"			"燃烧弹"
+	}
+	
+	"fnade description"
+	{
+		"chi"			"使受到伤害的玩家加成燃烧伤害."
+	}
+	
+	"icestab"
+	{
+		"chi"			"冰刀"
+	}
+	
+	"icestab description"
+	{
+		"chi"			"用刀攻击可以冻结."
+	}
+	
+	"fpistol"
+	{
+		"chi"			"冰冻手枪"
+	}
+	
+	"fpistol description"
+	{
+		"chi"			"被击中的玩家速度减慢."
+	}
+	
+	"denial"
+	{
+		"chi"			"恢复武器"
+	}
+	
+	"denial description"
+	{
+		"chi"			"复活后恢复你上一局使用的武器."
+	}
+	
+	"impulse"
+	{
+		"chi"			"移动速度+"
+	}
+	
+	"impulse description"
+	{
+		"chi"			"提高你的移动速度."
+	}
+	
+	"medic"
+	{
+		"chi"			"群体恢复"
+	}
+	
+	"medic description"
+	{
+		"chi"			"治疗你周围的队友."
+	}
+	
+	"speed"
+	{
+		"chi"			"速度+"
+	}
+	
+	"speed description"
+	{
+		"chi"			"使你跑得更快."
+	}
+  
+	"damage"
+	{
+		"chi"			"伤害增加"
+	}
+	
+	"damage description"
+	{
+		"chi"			"将对敌人造成额外的伤害."
+	}
+	
+	"armorregen"
+	{
+		"chi"			"护甲再生"
+	}
+	
+	"armorregen description"
+	{
+		"chi"			"定期再生护甲."
+	}
+	
+	"clipsize"
+	{
+		"chi"			"增加弹夹"
+	}
+	
+	"clipsize description"
+	{
+		"chi"			"增加弹夹数量."
+	}
+	
+	"shrinking"
+	{
+		"chi"			"变小"
+	}
+	
+	"shrinking description"
+	{
+		"chi"			"使你的人物模型更小,更加难以击中."
+	}
+	
+	"armorplus"
+	{
+		"chi"			"提高护甲+"
+	}
+	
+	"armorplus description"
+	{
+		"chi"			"提高你的最大护甲量."
+	}
+	
+	"fastreload"
+	{
+		"chi"			"快速换弹"
+	}
+	
+	"fastreload description"
+	{
+		"chi"			"提高你换弹夹的速度."
+	}
+	
+	"firepistol"
+	{
+		"chi"			"燃烧子弹"
+	}
+	
+	"firepistol description"
+	{
+		"chi"			"点燃你击中的敌人."
+	}
+	
+	"gravity"
+	{
+		"chi"			"轻功"
+	}
+	
+	"gravity description"
+	{
+		"chi"			"使你可以跳的更高."
+	}
+	
+	"poisonsmoke"
+	{
+		"chi"			"毒烟"
+	}
+	
+	"poisonsmoke description"
+	{
+		"chi"			"让你的烟雾对僵尸含有杀伤力"
+	}
+	
+	"firerate"
+	{
+		"chi"			"快速射击"
+	}
+	
+	"firerate description"
+	{
+		"chi"			"提高开枪速度."
+	}
+	
+	"icenade"
+	{
+		"chi"			"冰冻弹"
+	}
+	
+	"icenade description"
+	{
+		"chi"			"使用闪光弹将会冻结其他玩家."
+	}
+	
+	"grenaderesup"
+	{
+		"chi"			"手榴弹补给"
+	}
+	
+	"grenaderesup description"
+	{
+		"chi"			"在你投掷手榴弹x秒后重新生成手榴弹."
+	}
+	
+	"antidote"
+	{
+		"chi"			"天使"
+	}
+	
+	"antidote description"
+	{
+		"chi"			"缩短不良影响的持续时间,如冻结.燃烧或减速."
+	}
+	
+	"bouncybullets"
+	{
+		"chi"			"弹力子弹"
+	}
+	
+	"bouncybullets description"
+	{
+		"chi"			"将敌人弹开."
+	}
+	
+	"falldamage"
+	{
+		"chi"			"降低坠落伤害"
+	}
+	
+	"falldamage description"
+	{
+		"chi"			"减少你从高处坠落所造成的伤害."
+	}
+	
+	"armorhelmet"
+	{
+		"chi"			"装甲头盔"
+	}
+	
+	"armorhelmet description"
+	{
+		"chi"			"复活时，你会获得头盔."
+	}
+	
+	"antiflash"
+	{
+		"chi"			"防闪光"
+	}
+	
+	"antiflash description"
+	{
+		"chi"			"减少闪光弹对你的致盲效果."
+	}
+	
+	"adrenaline"
+	{
+		"chi"			"肾上腺素"
+	}
+	
+	"adrenaline description"
+	{
+		"chi"			"在开火时增加你的速度."
+	}
+}

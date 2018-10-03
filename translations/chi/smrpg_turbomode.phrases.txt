@@ -1,0 +1,33 @@
+"Phrases"
+{
+  "Turbo mode enabled discard stats"
+  {
+    // 1: How many times faster are players earning experience (e.g. 1.5)
+    // 2: How many times faster are players earning credits (e.g. 1.8)
+    "#format"	"{1:.2f},{2:.2f}"
+    "en"  "{RB}模式启用!{G} 获得的经验增加了 {N}{1}x{G} 和技能点 {N}{2}x{G} 更快! 统计数据不会被保存."
+  }
+  "Turbo mode enabled save stats"
+  {
+    // 1: How many times faster are players earning experience (e.g. 1.5)
+    // 2: How many times faster are players earning credits (e.g. 1.8)
+    "#format" "{1:.2f},{2:.2f}"
+    "en"  "{RB}Turbo模式启用!{G} 获得的经验增加了 {N}{1}x{G} 和技能点 {N}{2}x{G} 更快!"
+  }
+  "Turbo mode disabled"
+  {
+    "en"  "{RB}Turbo模式禁用!{G} 经验和积分均恢复正常."
+  }
+  "Command Turbo mode enabled"
+  {
+    "en"	"Turbo模式现在启用. 所有的玩家都被重置，获得的经验是更快的."
+  }
+  "Command Turbo mode disabled"
+  {
+    "en"	"Turbo模式现在禁用. 所有玩家重新连接."
+  }
+  "Turbo mode"
+  {
+    "en"	"Turbo模式"
+  }
+}

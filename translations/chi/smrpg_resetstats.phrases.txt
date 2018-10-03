@@ -1,0 +1,97 @@
+"Phrases"
+{
+  "Admin command resetdatabase"
+  {
+    "chi"  "数据库被清除. 所有的玩家都在1级再次."
+  }
+  "Stats reset when levels sum up to"
+  {
+    // 1: Maximum sum of levels of top 10 players. 
+    // 2: Levels remaining until the maximum is reached.
+    "#format"  "{1:d},{2:d}"
+    "chi"  "数据被重置时的前10名玩家的等级总结 {1}. 仍然 {2} 离开等级."
+  }
+  "Warning, your stats were reset on"
+  {
+    // 1: Day of last reset of the player.
+    // 2: Month of the last reset of the player.
+    // 3: Year of the last reset of the player.
+    "#format"  "{1:02d},{2:02d},{3:d}"
+    "chi"  "{RB}注意!{G} 你的统计分别为 {RB}重置 {N}{3}-{2}-{1}{G}."
+  }
+  "The whole server got reset, so you're not the only one."
+  {
+    "chi"  "整个服务器被重置, 所以你不是唯一的一个."
+  }
+  "This is done automatically regularly."
+  {
+    "chi"  "这是自动进行的定期重置. 在聊天栏输入 {N}nextreset{G} 再次见到的时候."
+  }
+  "Display global reset reason"
+  {
+    // 1: The reason for the last global reset
+    "#format" "{1:s}"
+    "chi"  "原因: {N}{1}"
+  }
+  "Last server reset"
+  {
+    // 1: Day of last reset of the server.
+    // 2: Month of the last reset of the server.
+    // 3: Year of the last reset of the server.
+    "#format"  "{1:02d},{2:02d},{3:d}"
+    "chi"  "服务器统计将被重置 {N}{3}-{2}-{1}{G}."
+  }
+  "Last player reset"
+  {
+    // 1: Day of last reset of the player.
+    // 2: Month of the last reset of the player.
+    // 3: Year of the last reset of the player.
+    "#format"  "{1:02d},{2:02d},{3:d}"
+    "chi"  "你的统计分别为 {RB}重置 {N}{3}-{2}-{1}{G}."
+  }
+  "Timed reset today"
+  {
+    "chi"  "该统计数据今天将要进行重置."
+  }
+  "Timed reset in future"
+  {
+    // 1: "Days" or "Day" phrase from below. Days until reset in readable form.
+    // 2: "Months" or "Month" phrase from below. Months until reset in readable form.
+    // 3: "Years" or "Year" phrase from below. Years until reset in readable form.
+    // 4: Day of the next reset in the future.
+    // 5: Month of the next reset in the future.
+    // 6: Year of the next reset in the future.
+    "#format"  "{1:s},{2:s},{3:s},{4:02d},{5:02d},{6:d}"
+    "chi"  "该统计将要 {RB}重置{G} 在{3}{2}{1} 上 {6}-{5}-{4}."
+  }
+  "One Day"
+  {
+    "chi"  " 1 天"
+  }
+  "Days"
+  {
+    // 1: Days until stats are reset.
+    "#format"  "{1:d}"
+    "chi"  " {1} 天"
+  }
+  "One Month"
+  {
+    "chi"  " 1 月"
+  }
+  "Months"
+  {
+    // 1: Months until stats are reset.
+    "#format"  "{1:d}"
+    "chi"  " {1} 月"
+  }
+  "One Year"
+  {
+    "chi"  " 1 年"
+  }
+  "Years"
+  {
+    // 1: Years until stats are reset.
+    "#format"  "{1:d}"
+    "chi"  " {1} 年"
+  }
+}
