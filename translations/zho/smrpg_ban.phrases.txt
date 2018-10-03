@@ -1,0 +1,103 @@
+"Phrases"
+{
+	"RPG Ban Player"
+	{
+		"zho"			"封禁玩家的RPG"
+	}
+	
+	"You are banned"
+	{
+		"zho"			"你被服務器管理員封禁RPG功能。 你將無法獲得經驗，也無法使用升級."
+	}
+	
+	"Cannot buy upgrades"
+	{
+		"zho"			"你被服務器管理員封禁RPG功能。你現在不能升級技能了."
+	}
+	
+	"Cannot sell upgrades"
+	{
+		"zho"			"您被服務器管理員禁止使用RPG功能。 你現在不能出售升級了."
+	}
+	
+	"Not authorized yet"
+	{
+		// 1: Name of the player.
+		"#format"		"{1:N}"
+		"zho"			"{1} 尚未獲得Steam授權。 請稍後再試."
+	}
+	
+	"Invalid ban length"
+	{
+		// 1: String that was entered as length in the command.
+		"#format"		"{1:s}"
+		"zho"			"無法解析封禁的長度. \"{1}\" 不是一個數字."
+	}
+	
+	"Player is not banned"
+	{
+		// 1: Name of the player.
+		"#format"		"{1:N}"
+		"zho"			"{1} 的RPG沒有被封禁."
+	}
+	
+	"Player unbanned"
+	{
+		// 1: Name of the player.
+		"#format"		"{1:N}"
+		"zho"			"{1} 的RPG被解除封禁."
+	}
+	
+	"Select player to ban"
+	{
+		"zho"			"選擇封禁RPG的玩家:"
+	}
+
+	"Select length of ban"
+	{
+		// 1: Name of the player.
+		"#format"		"{1:N}"
+		"zho"			"選擇RPG封禁的長度 {1}:"
+	}
+
+	"Select reason for ban"
+	{
+		// 1: Name of the player.
+		"#format"		"{1:N}"
+		"zho"			"選擇RPG封禁的原因 {1}:"
+	}
+
+	"Already banned, change length"
+	{
+		// 1: Name of the player.
+		// 2: Old length of the ban in minutes.
+		// 3: New length of the ban in minutes.
+		// 4: Old reason for the ban.
+		"#format"		"{1:N},{2:d},{3:d},{4:s}"
+		"zho"			"{1} 已被封禁. 修改了封禁時間從 {2} 分鐘到 {3} 分鐘. (舊原因: \"{4}\")"
+	}
+
+	"Player was banned"
+	{
+		// 1: Name of the admin who is banning the player.
+		// 2: Name of the banned player.
+		// 3: Length of the ban in minutes.
+		// 4: Reason for the ban.
+		"#format"		"{1:N},{2:N},{3:d},{4:s}"
+		"zho"			"{1} 被封禁 {2} RPG時間封禁 {3} 分鐘. 原因: {4}"
+	}
+
+	"Player was banned permanently"
+	{
+		// 1: Name of the admin who is banning the player.
+		// 2: Name of the banned player.
+		// 3: Reason for the ban.
+		"#format"		"{1:N},{2:N},{3:s}"
+		"zho"			"{1} 被封禁 {2} RPG永久封禁. 原因: {3}"
+	}
+	
+	"Ban expired"
+	{
+		"zho"			"你的RPG封禁到期。你可以再正常地玩。註意你自己的行為!"
+	}
+}

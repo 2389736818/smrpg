@@ -1,0 +1,100 @@
+"Phrases"
+{
+	"Player is knifeleveling"
+	{
+		// 1: Name of player who is earning levels
+		// 2: Name of the player who gets knifed, so the other player gets experience
+		"#format"	"{1:N},{2:N}"
+		"zho"			"{N}{1}{G} 被懷疑使用刀升級技能 {N}{2}{G}."
+	}
+	
+	"cs_playerknife"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"zho"			"使用刀傷害 {2} 獲得 {1} 經驗"
+	}
+	
+	"cs_playerhurt"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"zho"			"傷害 {2} 獲得 {1} 經驗"
+	}
+	
+	"cs_playerkill"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"zho"			"擊殺 {2} 獲得 {1} 經驗"
+	}
+	
+	"cs_playerkillassist"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"zho"			"協助擊殺 {2} 獲得 {1} 經驗"
+	}
+	
+	"cs_dominating"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"zho"			"主宰 {2} 獲得 {1} 經驗"
+	}
+	
+	"cs_revenge"
+	{
+		// 1: The amount of experience earned.
+		// 2: The other player involved. e.g. the victim when hurting someone.
+		"#format"	"{1:d},{2:N}"
+		"zho"			"復仇 {2} 獲得 {1} 經驗"
+	}
+	
+	"cs_winround"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"zho"			"獲勝 {2} 獲得 {1} 經驗"
+	}
+	
+	"cs_bombplanted"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"zho"			"安放炸彈 {2} 獲得 {1} 經驗"
+	}
+	
+	"cs_bombdefused"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"zho"			"拆除炸彈 {2} 獲得 {1} 經驗"
+	}
+	
+	"cs_bombexploded"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"zho"			"炸彈爆炸 {2} 獲得 {1} 經驗"
+	}
+	
+	"cs_hostagerescued"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"zho"			"解救人質 {2} 獲得 {1} 經驗"
+	}
+	
+	"cs_vipescaped"
+	{
+		// 1: The amount of experience earned.
+		"#format"	"{1:d}"
+		"zho"			"VIP逃脫 {2} 獲得 {1} 經驗"
+	}
+}

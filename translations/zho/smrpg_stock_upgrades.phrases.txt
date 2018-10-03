@@ -1,0 +1,312 @@
+"Phrases"
+{
+	"regen"
+	{
+		"zho"			"血量恢復"
+	}
+	
+	"regen description"
+	{
+		"zho"			"定時恢復血量."
+	}
+	
+	"health"
+	{
+		"zho"			"生命值+"
+	}
+	
+	"health description"
+	{
+		"zho"			"增加到最大生命."
+	}
+	
+	"resup"
+	{
+		"zho"			"補給"
+	}
+	
+	"resup description"
+	{
+		"zho"			"每第三秒補充彈藥."
+	}
+	
+	"vamp"
+	{
+		"zho"			"吸血(求生技能)"
+	}
+	
+	"vamp description"
+	{
+		"zho"			"輸出傷害時,恢復生命值."
+	}
+	
+	"stealth"
+	{
+		"zho"			"隱身"
+	}
+	
+	"stealth description"
+	{
+		"zho"			"使自己越來越透明."
+	}
+	
+	"ljump"
+	{
+		"zho"			"加速跳"
+	}
+	
+	"ljump description"
+	{
+		"zho"			"提高你的跳躍速度."
+	}
+	
+	"fnade"
+	{
+		"zho"			"燃燒彈"
+	}
+	
+	"fnade description"
+	{
+		"zho"			"使受到傷害的玩家加成燃燒傷害."
+	}
+	
+	"icestab"
+	{
+		"zho"			"冰刀"
+	}
+	
+	"icestab description"
+	{
+		"zho"			"用刀攻擊可以凍結."
+	}
+	
+	"fpistol"
+	{
+		"zho"			"冰凍手槍"
+	}
+	
+	"fpistol description"
+	{
+		"zho"			"被擊中的玩家速度減慢."
+	}
+	
+	"denial"
+	{
+		"zho"			"恢復武器"
+	}
+	
+	"denial description"
+	{
+		"zho"			"復活後恢復你上一局使用的武器."
+	}
+	
+	"impulse"
+	{
+		"zho"			"移動速度+"
+	}
+	
+	"impulse description"
+	{
+		"zho"			"提高你的移動速度."
+	}
+	
+	"medic"
+	{
+		"zho"			"群體恢復"
+	}
+	
+	"medic description"
+	{
+		"zho"			"治療你周圍的隊友."
+	}
+	
+	"speed"
+	{
+		"zho"			"速度+"
+	}
+	
+	"speed description"
+	{
+		"zho"			"使你跑得更快."
+	}
+  
+	"damage"
+	{
+		"zho"			"傷害增加"
+	}
+	
+	"damage description"
+	{
+		"zho"			"將對敵人造成額外的傷害."
+	}
+	
+	"armorregen"
+	{
+		"zho"			"護甲再生"
+	}
+	
+	"armorregen description"
+	{
+		"zho"			"定期再生護甲."
+	}
+	
+	"clipsize"
+	{
+		"zho"			"增加彈夾"
+	}
+	
+	"clipsize description"
+	{
+		"zho"			"增加彈夾數量."
+	}
+	
+	"shrinking"
+	{
+		"zho"			"變小"
+	}
+	
+	"shrinking description"
+	{
+		"zho"			"使你的人物模型更小,更加難以擊中."
+	}
+	
+	"armorplus"
+	{
+		"zho"			"提高護甲+"
+	}
+	
+	"armorplus description"
+	{
+		"zho"			"提高你的最大護甲量."
+	}
+	
+	"fastreload"
+	{
+		"zho"			"快速換彈"
+	}
+	
+	"fastreload description"
+	{
+		"zho"			"提高你換彈夾的速度."
+	}
+	
+	"firepistol"
+	{
+		"zho"			"燃燒子彈"
+	}
+	
+	"firepistol description"
+	{
+		"zho"			"點燃你擊中的敵人."
+	}
+	
+	"gravity"
+	{
+		"zho"			"輕功"
+	}
+	
+	"gravity description"
+	{
+		"zho"			"使你可以跳的更高."
+	}
+	
+	"poisonsmoke"
+	{
+		"zho"			"毒煙"
+	}
+	
+	"poisonsmoke description"
+	{
+		"zho"			"讓你的煙霧對僵屍含有殺傷力"
+	}
+	
+	"firerate"
+	{
+		"zho"			"快速射擊"
+	}
+	
+	"firerate description"
+	{
+		"zho"			"提高開槍速度."
+	}
+	
+	"icenade"
+	{
+		"zho"			"冰凍彈"
+	}
+	
+	"icenade description"
+	{
+		"zho"			"使用閃光彈將會凍結其他玩家."
+	}
+	
+	"grenaderesup"
+	{
+		"zho"			"手榴彈補給"
+	}
+	
+	"grenaderesup description"
+	{
+		"zho"			"在你投擲手榴彈x秒後重新生成手榴彈."
+	}
+	
+	"antidote"
+	{
+		"zho"			"天使"
+	}
+	
+	"antidote description"
+	{
+		"zho"			"縮短不良影響的持續時間,如凍結.燃燒或減速."
+	}
+	
+	"bouncybullets"
+	{
+		"zho"			"彈力子彈"
+	}
+	
+	"bouncybullets description"
+	{
+		"zho"			"將敵人彈開."
+	}
+	
+	"falldamage"
+	{
+		"zho"			"降低墜落傷害"
+	}
+	
+	"falldamage description"
+	{
+		"zho"			"減少你從高處墜落所造成的傷害."
+	}
+	
+	"armorhelmet"
+	{
+		"zho"			"裝甲頭盔"
+	}
+	
+	"armorhelmet description"
+	{
+		"zho"			"復活時，你會獲得頭盔."
+	}
+	
+	"antiflash"
+	{
+		"zho"			"防閃光"
+	}
+	
+	"antiflash description"
+	{
+		"zho"			"減少閃光彈對你的致盲效果."
+	}
+	
+	"adrenaline"
+	{
+		"zho"			"腎上腺素"
+	}
+	
+	"adrenaline description"
+	{
+		"zho"			"在開火時增加你的速度."
+	}
+}

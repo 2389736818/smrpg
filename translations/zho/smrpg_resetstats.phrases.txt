@@ -1,0 +1,97 @@
+"Phrases"
+{
+  "Admin command resetdatabase"
+  {
+    "zho"  "數據庫被清除. 所有的玩家都在1級再次."
+  }
+  "Stats reset when levels sum up to"
+  {
+    // 1: Maximum sum of levels of top 10 players. 
+    // 2: Levels remaining until the maximum is reached.
+    "#format"  "{1:d},{2:d}"
+    "zho"  "數據被重置時的前10名玩家的等級總結 {1}. 仍然 {2} 離開等級."
+  }
+  "Warning, your stats were reset on"
+  {
+    // 1: Day of last reset of the player.
+    // 2: Month of the last reset of the player.
+    // 3: Year of the last reset of the player.
+    "#format"  "{1:02d},{2:02d},{3:d}"
+    "zho"  "{RB}註意!{G} 你的統計分別為 {RB}重置 {N}{3}-{2}-{1}{G}."
+  }
+  "The whole server got reset, so you're not the only one."
+  {
+    "zho"  "整個服務器被重置, 所以你不是唯一的一個."
+  }
+  "This is done automatically regularly."
+  {
+    "zho"  "這是自動進行的定期重置. 在聊天欄輸入 {N}nextreset{G} 再次見到的時候."
+  }
+  "Display global reset reason"
+  {
+    // 1: The reason for the last global reset
+    "#format" "{1:s}"
+    "zho"  "原因: {N}{1}"
+  }
+  "Last server reset"
+  {
+    // 1: Day of last reset of the server.
+    // 2: Month of the last reset of the server.
+    // 3: Year of the last reset of the server.
+    "#format"  "{1:02d},{2:02d},{3:d}"
+    "zho"  "服務器統計將被重置 {N}{3}-{2}-{1}{G}."
+  }
+  "Last player reset"
+  {
+    // 1: Day of last reset of the player.
+    // 2: Month of the last reset of the player.
+    // 3: Year of the last reset of the player.
+    "#format"  "{1:02d},{2:02d},{3:d}"
+    "zho"  "你的統計分別為 {RB}重置 {N}{3}-{2}-{1}{G}."
+  }
+  "Timed reset today"
+  {
+    "zho"  "該統計數據今天將要進行重置."
+  }
+  "Timed reset in future"
+  {
+    // 1: "Days" or "Day" phrase from below. Days until reset in readable form.
+    // 2: "Months" or "Month" phrase from below. Months until reset in readable form.
+    // 3: "Years" or "Year" phrase from below. Years until reset in readable form.
+    // 4: Day of the next reset in the future.
+    // 5: Month of the next reset in the future.
+    // 6: Year of the next reset in the future.
+    "#format"  "{1:s},{2:s},{3:s},{4:02d},{5:02d},{6:d}"
+    "zho"  "該統計將要 {RB}重置{G} 在{3}{2}{1} 上 {6}-{5}-{4}."
+  }
+  "One Day"
+  {
+    "zho"  " 1 天"
+  }
+  "Days"
+  {
+    // 1: Days until stats are reset.
+    "#format"  "{1:d}"
+    "zho"  " {1} 天"
+  }
+  "One Month"
+  {
+    "zho"  " 1 月"
+  }
+  "Months"
+  {
+    // 1: Months until stats are reset.
+    "#format"  "{1:d}"
+    "zho"  " {1} 月"
+  }
+  "One Year"
+  {
+    "zho"  " 1 年"
+  }
+  "Years"
+  {
+    // 1: Years until stats are reset.
+    "#format"  "{1:d}"
+    "zho"  " {1} 年"
+  }
+}

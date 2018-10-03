@@ -1,0 +1,35 @@
+"Phrases"
+{
+	"RPG stats"
+	{
+		"zho"			"RPG 統計"
+	}
+
+	"Show for other player"
+	{
+		// 1: "RPG stats" phrase
+		// 2: Name of the target client.
+		"#format"		"{1:t},{2:N}"
+		"zho"			"{2} 的 {1}"
+	}
+
+	"Player is AFK"
+	{
+		"zho"			"玩家正在掛機"
+	}
+
+	"Hide stats info panel"
+	{
+		"zho"			"隱藏統計信息面板"
+	}
+
+	"Last Experience Short"
+	{
+		"zho"			"最後獲得經驗"
+	}
+
+	"Estimated time until levelup"
+	{
+		"zho"			"預計升級時間"
+	}
+}

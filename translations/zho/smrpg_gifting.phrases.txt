@@ -1,0 +1,55 @@
+"Phrases"
+{
+  "Don't give yourself a gift"
+  {
+    "zho"  "給自己一個禮物是沒有意義的.."
+  }
+  "Need at least 1 credit"
+  {
+    "zho"  "你需要給至少為1個技能點!"
+  }
+  "You don't have enough credits"
+  {
+    "zho"  "你沒有足夠的技能點."
+  }
+  "You have to be min level"
+  {
+    // 1: Minimum level from which you are allowed to gift credits to someone.
+    "#format" "{1:d}"
+    "zho"  "你必須至少為 {N}等級 {1}{G} 才能贈送積分."
+  }
+  "Failed to give credits"
+  {
+    // 1: The amount of credits the player tried to give as a gift.
+    // 2: The name of the receiver.
+    "#format" "{1:d},{2:N}"
+    "zho"  "未能給予 {1} 技能點 {2}."
+  }
+  "Fatal Error giving credits. Credits lost."
+  {
+    // 1: The amount of credits the player tried to give as a gift.
+    // 2: The name of the receiver.
+    "#format" "{1:d},{2:N}"
+    "zho"  "未能給予 {1} 技能點 {2} 我無法給你的積分回來. 請聯系該服務器的管理員!"
+  }
+  "Gave credits as a gift"
+  {
+    // 1: The name of the generous player giving some credits.
+    // 2: The amount of credits the player gave as a gift.
+    // 3: The name of the receiver.
+    "#format" "{1:N},{2:d},{3:N}"
+    "zho"  "{1} 送給 {2} 技能點 {3} 作為禮物!"
+  }
+  "rpggift short desc"
+  {
+    "zho"  "把你的技能點給其他玩家."
+  }
+  "rpggift desc"
+  {
+    "zho"  "贈送你的技能點給你的好朋友.輸入: rpggift <#userid|authid|名字> <技能點數>"
+  }
+  "rpggift advert"
+  {
+    "zho"  "在聊天欄輸入 {N}rpggift{G} 可以把你的技能點給其他玩家 {N}作為禮物{G}!"
+  }
+}
