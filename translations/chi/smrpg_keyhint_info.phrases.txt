@@ -1,0 +1,35 @@
+"Phrases"
+{
+	"RPG stats"
+	{
+		"chi"			"RPG 统计"
+	}
+
+	"Show for other player"
+	{
+		// 1: "RPG stats" phrase
+		// 2: Name of the target client.
+		"#format"		"{1:t},{2:N}"
+		"chi"			"{2} 的 {1}"
+	}
+
+	"Player is AFK"
+	{
+		"chi"			"玩家正在挂机"
+	}
+
+	"Hide stats info panel"
+	{
+		"chi"			"隐藏统计信息面板"
+	}
+
+	"Last Experience Short"
+	{
+		"chi"			"最后获得经验"
+	}
+
+	"Estimated time until levelup"
+	{
+		"chi"			"预计升级时间"
+	}
+}
