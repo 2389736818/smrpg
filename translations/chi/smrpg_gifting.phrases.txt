@@ -1,0 +1,55 @@
+"Phrases"
+{
+  "Don't give yourself a gift"
+  {
+    "chi"  "给自己一个礼物是没有意义的.."
+  }
+  "Need at least 1 credit"
+  {
+    "chi"  "你需要给至少为1个技能点!"
+  }
+  "You don't have enough credits"
+  {
+    "chi"  "你没有足够的技能点."
+  }
+  "You have to be min level"
+  {
+    // 1: Minimum level from which you are allowed to gift credits to someone.
+    "#format" "{1:d}"
+    "chi"  "你必须至少为 {N}等级 {1}{G} 才能赠送积分."
+  }
+  "Failed to give credits"
+  {
+    // 1: The amount of credits the player tried to give as a gift.
+    // 2: The name of the receiver.
+    "#format" "{1:d},{2:N}"
+    "chi"  "未能给予 {1} 技能点 {2}."
+  }
+  "Fatal Error giving credits. Credits lost."
+  {
+    // 1: The amount of credits the player tried to give as a gift.
+    // 2: The name of the receiver.
+    "#format" "{1:d},{2:N}"
+    "chi"  "未能给予 {1} 技能点 {2} 我无法给你的积分回来. 请联系该服务器的管理员!"
+  }
+  "Gave credits as a gift"
+  {
+    // 1: The name of the generous player giving some credits.
+    // 2: The amount of credits the player gave as a gift.
+    // 3: The name of the receiver.
+    "#format" "{1:N},{2:d},{3:N}"
+    "chi"  "{1} 送给 {2} 技能点 {3} 作为礼物!"
+  }
+  "rpggift short desc"
+  {
+    "chi"  "把你的技能点给其他玩家."
+  }
+  "rpggift desc"
+  {
+    "chi"  "赠送你的技能点给你的好朋友.输入: rpggift <#userid|authid|名字> <技能点数>"
+  }
+  "rpggift advert"
+  {
+    "chi"  "在聊天栏输入 {N}rpggift{G} 可以把你的技能点给其他玩家 {N}作为礼物{G}!"
+  }
+}
